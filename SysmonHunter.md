@@ -12,17 +12,17 @@ SysmonHunter使用ElasticSearch和Neo4j來儲存異常的威脅物件及其之�
 
 #執行Elasticsearch(成功的畫面)
 
-![image-20210617184455417](C:\Users\ppall\AppData\Roaming\Typora\typora-user-images\image-20210617184455417.png)
+![image](https://github.com/qwq1358qwq/Final-homework-Sysmonhunter/blob/main/image-20210617184455417.png)
 
 #執行Neo4j(成功的畫面)
 
-![image-20210617185132968](C:\Users\ppall\AppData\Roaming\Typora\typora-user-images\image-20210617185132968.png)
+![image](https://github.com/qwq1358qwq/Final-homework-Sysmonhunter/blob/main/image-20210617185132968.png)
 
 
 
 #Elasticsearch,winlogbeat,neo4j的位置
 
-![image-20210621224004888](C:\Users\ppall\AppData\Roaming\Typora\typora-user-images\image-20210621224004888.png)
+![image](https://github.com/qwq1358qwq/Final-homework-Sysmonhunter/blob/main/image-20210621224004888.png)
 
 es_host=http://localhost:9200 -> Elasticsearch位置
 
@@ -40,13 +40,12 @@ https://www.elastic.co/downloads/beats/winlogbeat ->安裝winlogbeat
 
 #Winlogbeat設定，主機送到Elasticsearch的位置
 
-![image-20210621225348437](C:\Users\ppall\AppData\Roaming\Typora\typora-user-images\image-20210621225348437.png)
+![image](https://github.com/qwq1358qwq/Final-homework-Sysmonhunter/blob/main/image-20210621225348437.png)
 
 
 
 #Elasticsearch-Head，主機觀察Elasticsearch的資料
-
-![image-20210621223724425](C:\Users\ppall\AppData\Roaming\Typora\typora-user-images\image-20210621223724425.png)
+![image](https://github.com/qwq1358qwq/Final-homework-Sysmonhunter/blob/main/image-20210621223724425.png)
 
 #Elasticsearch-Head
 
@@ -54,11 +53,11 @@ https://www.elastic.co/downloads/beats/winlogbeat ->安裝winlogbeat
 
 #從Elasticsearch-Head中的6/22 05:36 User的LOG
 
-![image-20210622181918391](C:\Users\ppall\AppData\Roaming\Typora\typora-user-images\image-20210622181918391.png)
+![image](https://github.com/qwq1358qwq/Final-homework-Sysmonhunter/blob/main/image-20210622181918391.png)
 
 
 
-#把CSV檔案轉道ElasticSearch的資料庫(從Chrome ElasticSearch-Head可觀察到)![image-20210622234709659](C:\Users\ppall\AppData\Roaming\Typora\typora-user-images\image-20210622234709659.png)
+#把CSV檔案轉道ElasticSearch的資料庫(從Chrome ElasticSearch-Head可觀察到)![image](https://github.com/qwq1358qwq/Final-homework-Sysmonhunter/blob/main/image-20210622234709659.png)
 
 python agent.py -c conf/example.conf -t csv -i test/empire.csv
 
