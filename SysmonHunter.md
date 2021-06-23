@@ -8,7 +8,7 @@ SysmonHunter使用ElasticSearch和Neo4j來儲存異常的威脅物件及其之�
 
 #從VM中開啟ova檔案並且從虛擬機器中找到SysmonHunter的虛擬IP
 
-![image-20210621223837865](C:\Users\ppall\AppData\Roaming\Typora\typora-user-images\image-20210621223837865.png)
+![image](https://github.com/qwq1358qwq/Final-homework-Sysmonhunter/blob/main/image-20210621223837865.png)
 
 #執行Elasticsearch(成功的畫面)
 
